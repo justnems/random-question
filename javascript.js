@@ -56,6 +56,16 @@ var questions = [
   "What does success mean to you?",
   "What's one fear you're working on overcoming?",
   "What historical event do you think has had the biggest impact on the world?",
+  "What's a cause you're passionate about, even if it's not widely known?",
+  "What historical event do you think will be most studied in the future?",
+  "What does living a meaningful life mean to you?",
+  "What keeps you optimistic about the future?",
+  "What's the biggest challenge you've helped someone overcome?",
+  "What's one positive change you'd like to see in your community?",
+  "What historical figure do you find most misunderstood and why?",
+  "What does personal growth mean to you?",
+  "What keeps you motivated in life?",
+  "What's the most valuable lesson you've learned from a mistake?",
 
 // Food & Drinks
   "Favorite comfort food?",
@@ -73,6 +83,11 @@ var questions = [
   "What's your favorite childhood snack?",
   "If you could have a never-ending supply of one food, what would it be?",
   "What's the most exotic food you've ever tried (and did you like it)?",
+  "What's the most memorable meal you've ever shared with loved ones?",
+  "Do you have a favorite comfort food recipe you'd love to share (without measurements)?",
+  "What's the most unique or interesting ingredient you've ever cooked with?",
+  "If you could invent a new kitchen gadget, what would it do?",
+  "What's your favorite way to enjoy a cup of coffee or tea (special additions, brewing method)?",
 
 // Travel
   "Dream vacation destination (anywhere in the world)?",
@@ -90,6 +105,16 @@ var questions = [
   "Have you ever gotten lost in a new city (and how did you find your way back)?",
   "What's one travel essential you never leave home without?",
   "What cultural experience are you most looking forward to having someday?",
+  "What hidden gem (local park, museum, etc.) would you recommend in your city?",
+  "Describe the most unexpected kindness you've received while traveling.",
+  "What's the funniest thing that got lost in translation on a trip?",
+  "What travel tip do you swear by that most people wouldn't expect?",
+  "Imagine you have unlimited travel funds. Where would you go first and why?",
+  "What's the most delicious local food you've tried on a trip?",
+  "Describe a cultural experience that challenged your perspective in a positive way.",
+  "What's the funniest souvenir you've ever picked up on a trip?",
+  "What travel hack have you learned from experience that most people wouldn't know?",
+  "Imagine you could teleport anywhere in the world for 24 hours. Where would you go and why?",
 
 // Pop Culture
   "Favorite genre of TV shows to binge-watch?",
@@ -109,6 +134,16 @@ var questions = [
   "What fictional villain do you secretly admire (and why)?",
   "What's a book genre you completely avoid?",
   "Do you have a favorite podcast or audiobook you recommend?",
+  "What's a classic book or video game you've never experienced but are curious about?",
+  "What fictional villain do you find strangely relatable (and why)?",
+  "What historical figure do you think would be a fantastic guest on a talk show?",
+  "Do you have a favorite guilty pleasure song you secretly love to belt out?",
+  "What fictional world would you love to have the soundtrack of in your daily life?",
+  "What's a classic movie or TV show you've never seen but everyone keeps recommending?",
+  "What fictional character's fashion sense do you secretly admire?",
+  "What board game or card game adaptation of a movie/TV show would be amazing?",
+  "Do you have a favorite artist or band you discovered recently?",
+  "What's a song lyric that resonates deeply with you and why?",
 
 
 // Other
@@ -131,63 +166,40 @@ var questions = [
   "If you could travel back in time and give your younger self one piece of advice, what would it be?",
   "What are you secretly curious about learning more about?",
   "What's the biggest challenge facing humanity today (and what can we do about it)?",
+  "What unsolved scientific mystery fascinates you the most?",
+  "What skill are you working on developing outside of work?",
+  "If you could have a superpower that would make you a terrible superhero, what would it be?",
+  "What fictional creature do you think might actually exist?",
+  "What's the biggest personal risk you've ever taken (and what was the outcome)?",
+  "What small act of kindness have you witnessed that brightened your day?",
 
   // Party Games
   "What's the board game you always win at?",
   "Have you ever participated in a hilarious game fail (explain!)",
   "What's your go-to karaoke song (if you're brave enough to admit it)?",
+  "What's the board game that always brings out everyone's competitive spirit?",
+  "Describe your dream charades act-out (person, place, or thing)",
+  "What's the funniest thing you've ever seen happen during a game night?",
 
   // Creativity
   "If you could design your own amusement park ride, what would it be like?",
   "What's the silliest invention you can think of that might be surprisingly useful?",
   "Imagine you have a pet dragon. What wacky adventures would you have together?",
-
-  // Party Games (continued)
-  "What's the board game that always brings out everyone's competitive spirit?",
-  "Describe your dream charades act-out (person, place, or thing)",
-  "What's the funniest thing you've ever seen happen during a game night?",
-
-  // Creativity (continued)
   "If you could create a new emoji, what would it represent?",
   "Design your own flavor of potato chips and describe the crazy flavor combination!",
   "Imagine you could build a giant sandcastle. What fantastical elements would it have?",
+  
 
-  // Miscellaneous Fun (continued)
+  // Miscellaneous Fun
+  "What's the most interesting website you've stumbled upon recently?",
+  "Share a funny story about a time you got tongue-tied.",
+  "What's the best way to unwind after a long day?",
   "What's the most interesting fact you learned recently (completely random)?",
   "Can you share a funny typo or autocorrect fail that happened to you?",
   "What's the best way to spend a rainy day indoors?",
+  
 
-// Serious (continued)
-
-  "What's one positive change you'd like to see in your community?",
-  "What historical figure do you find most misunderstood and why?",
-  "What does personal growth mean to you?",
-  "What keeps you motivated in life?",
-  "What's the most valuable lesson you've learned from a mistake?",
-
-// Food & Drinks (continued)
-
-  "What's the most memorable meal you've ever shared with loved ones?",
-  "Do you have a favorite comfort food recipe you'd love to share (without measurements)?",
-  "What's the most unique or interesting ingredient you've ever cooked with?",
-  "If you could invent a new kitchen gadget, what would it do?",
-  "What's your favorite way to enjoy a cup of coffee or tea (special additions, brewing method)?",
-
-// Travel (continued)
-
-  "What hidden gem (local park, museum, etc.) would you recommend in your city?",
-  "Describe the most unexpected kindness you've received while traveling.",
-  "What's the funniest thing that got lost in translation on a trip?",
-  "What travel tip do you swear by that most people wouldn't expect?",
-  "Imagine you have unlimited travel funds. Where would you go first and why?",
-
-// Pop Culture (continued)
-
-  "What's a classic movie or TV show you've never seen but everyone keeps recommending?",
-  "What fictional character's fashion sense do you secretly admire?",
-  "What board game or card game adaptation of a movie/TV show would be amazing?",
-  "Do you have a favorite artist or band you discovered recently?",
-  "What's a song lyric that resonates deeply with you and why?",
+  
 
 // Other (continued)
 
@@ -210,17 +222,11 @@ var questions = [
   "Invent a new holiday and explain its traditions and how it would be celebrated.",
 
   // Miscellaneous Fun (continued)
-  "What's the most interesting website you've stumbled upon recently?",
-  "Share a funny story about a time you got tongue-tied.",
-  "What's the best way to unwind after a long day?",
+
 
 // Serious (continued)
 
-  "What's a cause you're passionate about, even if it's not widely known?",
-  "What historical event do you think will be most studied in the future?",
-  "What does living a meaningful life mean to you?",
-  "What keeps you optimistic about the future?",
-  "What's the biggest challenge you've helped someone overcome?",
+
 
 // Food & Drinks (continued)
 
@@ -232,29 +238,41 @@ var questions = [
 
 // Travel (continued)
 
-  "What's the most delicious local food you've tried on a trip?",
-  "Describe a cultural experience that challenged your perspective in a positive way.",
-  "What's the funniest souvenir you've ever picked up on a trip?",
-  "What travel hack have you learned from experience that most people wouldn't know?",
-  "Imagine you could teleport anywhere in the world for 24 hours. Where would you go and why?",
+  
 
-// Pop Culture (continued)
 
-  "What's a classic book or video game you've never experienced but are curious about?",
-  "What fictional villain do you find strangely relatable (and why)?",
-  "What historical figure do you think would be a fantastic guest on a talk show?",
-  "Do you have a favorite guilty pleasure song you secretly love to belt out?",
-  "What fictional world would you love to have the soundtrack of in your daily life?",
 
-// Other (continued)
-
-  "What unsolved scientific mystery fascinates you the most?",
-  "What skill are you working on developing outside of work?",
-  "If you could have a superpower that would make you a terrible superhero, what would it be?",
-  "What fictional creature do you think might actually exist?",
-  "What's the biggest personal risk you've ever taken (and what was the outcome)?",
-  "What small act of kindness have you witnessed that brightened your day?",
-
+// Date Night (Couples)
+  "What's one thing about our relationship that makes you really happy?",
+  "What's your favorite memory of us together?",
+  "Is there a place you've always wanted to visit together?",
+  "What small habit of mine do you find the most endearing?",
+  "What's one thing you admire about me that I might not know?",
+  "What's the best date we've ever had, in your opinion?",
+  "If we could take a dream vacation, where would we go and what would we do?",
+  "What do you think makes us a good team?",
+  "Is there a hobby or activity you'd like us to try together?",
+  "If we had a free day with no responsibilities, how would you want to spend it?",
+  "What's one thing you'd like us to do more often as a couple?",
+  "What's a silly or funny moment we've shared that still makes you laugh?",
+  "If you could describe our relationship in three words, what would they be?",
+  "What's a small thing I do that makes you feel loved?",
+  "What do you think our life will look like in five years?",
+  "If we wrote a book about our love story, what would the title be?",
+  "What's one thing we can work on together to strengthen our relationship?",
+  "What's a quality you think we bring out in each other?",
+  "What's a dream or goal you'd love for us to accomplish together?",
+  "If we could relive any moment from our time together, what would it be?",
+  "What song reminds you of us and why?",
+  "What's your favorite inside joke we share?",
+  "Is there a skill or hobby you'd like to teach me someday?",
+  "What's a random memory of us that pops into your head often?",
+  "If we were to create a 'date night' tradition, what would it be?",
+  "What's a piece of advice you'd give to a new couple starting out?",
+  "What was the moment you first felt a strong connection between us?",
+  "What's something you'd love to tell future 'us' about our current relationship?",
+  "If we could only eat one type of cuisine for all future date nights, what would it be?",
+  "What's a surprising way you've seen me grow since we've been together?",
 
 ];
 
