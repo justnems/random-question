@@ -11,7 +11,7 @@ var questions = [
 
   // Random Fun
   "If you could have any superpower, what would it be and why?",
-  "What fictional world would you love to visit?",
+// "What fictional world would you love to visit?",
   "You win the lottery! What's the first thing you buy (besides the necessities)?",
   "What's the weirdest talent you (or someone you know) possesses?",
   "What's the most useless thing you've ever mastered?",
@@ -67,7 +67,7 @@ var questions = [
   "What keeps you motivated in life?",
   "What's the most valuable lesson you've learned from a mistake?",
 
-// Food & Drinks
+// Food & Drink
   "Favorite comfort food?",
   "What's the weirdest food combination you actually enjoy?",
   "Tell us about your worst (but funny) cooking disaster story!",
@@ -88,6 +88,11 @@ var questions = [
   "What's the most unique or interesting ingredient you've ever cooked with?",
   "If you could invent a new kitchen gadget, what would it do?",
   "What's your favorite way to enjoy a cup of coffee or tea (special additions, brewing method)?",
+  "What's the most delicious meal you've ever cooked for yourself (and what made it special)?",
+  "Do you have a favorite childhood dessert you still crave?",
+  "What's the most visually stunning dish you've ever seen?",
+  "If you could open a restaurant with a unique theme, what would it be?",
+  "What's the most heartwarming food tradition you celebrate?",
 
 // Travel
   "Dream vacation destination (anywhere in the world)?",
@@ -145,9 +150,7 @@ var questions = [
   "Do you have a favorite artist or band you discovered recently?",
   "What's a song lyric that resonates deeply with you and why?",
 
-
 // Other
-
   "What's a random fact you know that always impresses people?",
   "Early bird or night owl? Why?",
   "What's your favorite way to spend a free weekend?",
@@ -172,6 +175,12 @@ var questions = [
   "What fictional creature do you think might actually exist?",
   "What's the biggest personal risk you've ever taken (and what was the outcome)?",
   "What small act of kindness have you witnessed that brightened your day?",
+  "What historical mystery would you love to see solved?",
+  "What's the one thing you're most proud of learning on your own?",
+  "If you could have a superpower that wouldn't directly help you, but would benefit society, what would it be?",
+  "What fictional language would you love to be able to speak fluently?",
+  "What's the biggest challenge you've overcome in your life (doesn't have to be work-related)?",
+  "What small act of kindness can make a big difference in someone's day?",
 
   // Party Games
   "What's the board game you always win at?",
@@ -180,6 +189,9 @@ var questions = [
   "What's the board game that always brings out everyone's competitive spirit?",
   "Describe your dream charades act-out (person, place, or thing)",
   "What's the funniest thing you've ever seen happen during a game night?",
+  "What's the board game that sparks the most hilarious debates?",
+  "Describe your dream dance move you'd love to bust out at a party.",
+  "What's the funniest thing you've ever witnessed during a game of Pictionary?",
 
   // Creativity
   "If you could design your own amusement park ride, what would it be like?",
@@ -188,7 +200,9 @@ var questions = [
   "If you could create a new emoji, what would it represent?",
   "Design your own flavor of potato chips and describe the crazy flavor combination!",
   "Imagine you could build a giant sandcastle. What fantastical elements would it have?",
-  
+  "Design your own board game concept and explain the rules!",
+  "Imagine you have a pet robot. Describe its unique features and personality.",
+  "Invent a new holiday and explain its traditions and how it would be celebrated.",
 
   // Miscellaneous Fun
   "What's the most interesting website you've stumbled upon recently?",
@@ -197,50 +211,6 @@ var questions = [
   "What's the most interesting fact you learned recently (completely random)?",
   "Can you share a funny typo or autocorrect fail that happened to you?",
   "What's the best way to spend a rainy day indoors?",
-  
-
-  
-
-// Other (continued)
-
-  "What historical mystery would you love to see solved?",
-  "What's the one thing you're most proud of learning on your own?",
-  "If you could have a superpower that wouldn't directly help you, but would benefit society, what would it be?",
-  "What fictional language would you love to be able to speak fluently?",
-  "What's the biggest challenge you've overcome in your life (doesn't have to be work-related)?",
-  "What small act of kindness can make a big difference in someone's day?",
-
-
-  // Party Games (continued)
-  "What's the board game that sparks the most hilarious debates?",
-  "Describe your dream dance move you'd love to bust out at a party.",
-  "What's the funniest thing you've ever witnessed during a game of Pictionary?",
-
-  // Creativity (continued)
-  "Design your own board game concept and explain the rules!",
-  "Imagine you have a pet robot. Describe its unique features and personality.",
-  "Invent a new holiday and explain its traditions and how it would be celebrated.",
-
-  // Miscellaneous Fun (continued)
-
-
-// Serious (continued)
-
-
-
-// Food & Drinks (continued)
-
-  "What's the most delicious meal you've ever cooked for yourself (and what made it special)?",
-  "Do you have a favorite childhood dessert you still crave?",
-  "What's the most visually stunning dish you've ever seen?",
-  "If you could open a restaurant with a unique theme, what would it be?",
-  "What's the most heartwarming food tradition you celebrate?",
-
-// Travel (continued)
-
-  
-
-
 
 // Date Night (Couples)
   "What's one thing about our relationship that makes you really happy?",
