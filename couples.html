@@ -1,21 +1,33 @@
-
-<!DOCTYPE html>
-<html>
 <head>
-    <title>Date Night Question Cards</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <title>Simple Card</title>
+    <link rel="alternate" hrefLang="x-default" href="https://components-microsite.webflow.io/simple-card"/>
+    <link rel="alternate" hrefLang="en-US" href="https://components-microsite.webflow.io/simple-card"/>
+    <link rel="alternate" hrefLang="es" href="https://components-microsite.webflow.io/es/simple-card"/>
+    <meta content="Date Night Question Cards" property="og:title"/>
+    <meta content="Date Night Question Cards" property="twitter:title"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>Random Question Generator - Date Night Edition</h1>
-    <div id="questionDisplay"></div>
-    <br>
-    <button onClick="newQuestion()">Click for Question</button>
-    <br> <br>
-    <img src="duck.gif">
+    <section>
+        <div class="w-layout-blockcontainer w-container">
+            <div class="w-layout-layout wf-layout-layout">
+                <div class="w-layout-cell">
+                    <h1>Date Night Questions</h1>
+                </div>
+                <div class="w-layout-cell">
+                    <p>It&#x27;s easy—press the button and take turns answering the questions. Best part? You both win!</p>
+                 </div>
+                <div class="w-layout-cell">
+                    <div id="questionDisplay" class="question">
+                        <p class="paragraph"></p>
+                    </div>
+                </div>
+            </div>
+            <button class="button w-button" onClick="newQuestion()">Pick a Card</button>
+        </div>
+    </section>
     <script src="javascript-couples.js"></script>
 </body>
-
-<!--h/t to Sophanarith Sok's excellent tutorial on building a random quote generator: https://medium.freecodecamp.org/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08--> 
-
-</html>
