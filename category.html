@@ -1,31 +1,38 @@
 <head>
     <meta charset="utf-8"/>
-    <title>Simple Card</title>
-    <link rel="alternate" hrefLang="x-default" href="https://components-microsite.webflow.io/simple-card"/>
-    <link rel="alternate" hrefLang="en-US" href="https://components-microsite.webflow.io/simple-card"/>
-    <link rel="alternate" hrefLang="es" href="https://components-microsite.webflow.io/es/simple-card"/>
-    <meta content="Date Night Question Cards" property="og:title"/>
-    <meta content="Date Night Question Cards" property="twitter:title"/>
+    <title>Random questions by category</title>
+    <meta content="Question Categories" property="og:title"/>
+    <meta content="Question Categories" property="twitter:title"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <section>
         <div class="w-layout-blockcontainer w-container">
             <div class="w-layout-layout wf-layout-layout">
-                <div class="w-layout-cell">
-                    <h1>Date Night Queries</h1>
+                <div class="w-layout-cell-category">
+                    <h1>Random questions by category</h1>
                 </div>
                 <div class="w-layout-cell">
-                    <p>It&#x27;s easy—press the button and take turns answering the questions. Best part? You both win!</p>
-                 </div>
+                    <p>Select a category and pull a random question from that group.</p>
+                </div>
                 <div class="w-layout-cell">
-                    <p id="categoryDisplay" class="category-label"></p>
-                    <div id="questionDisplay" class="question"></div>
+                    <label for="categorySelect">Category</label>
+                    <select id="categorySelect" class="input-select">
+                        <option value="" selected>Random Category</option>
+                    </select>
                 </div>
             </div>
-            <button class="button w-button" onClick="newQuestion(['about_me','this_or_that','couples'])">Pick a Card</button>
+        </div>
+    </section>
+    <section>
+        <div class="w-layout-blockcontainer w-container">
+            <div class="w-layout-layout wf-layout-layout">
+                <div class="w-layout-cell">
+                    <div id="questionDisplay" class="question"></div>
+                </div>
+                <button class="button w-button" onClick="newCategoryQuestion()">Pick a Card</button>
+            </div>
         </div>
     </section>
     <section>
